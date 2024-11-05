@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgba(71, 55, 55, 0.829);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-container {
+  display: flex;
+  outline: 3px solid orange;
+  width: 30rem;
+  padding: 10px;
+  background-color: rgba(172, 167, 167, 0.719);
+}
+
+.pad-container {
+  display: inline-block;
+  width: 15rem;
+}
+
+.drum-pad {
+  width: 70px;
+  height: 60px;
+  margin: 1px;
+}
+
+.control-container {
+  position: relative;
+  text-align: center;
+  width: 15rem;
+  padding-top: 15px;
+}
+
+.form-range {
+  width: 80%
+}
+
+#display {
+  position: relative;
+  left: 35px;
+  width: 10rem;
+  background-color: antiquewhite;
+}
+
+.form-check.form-switch .indicator {
+  position: absolute;
+  left: 102px;
+}
+
+.form-check.form-switch .bank {
+  position: absolute;
+  left: 122px;
+}
